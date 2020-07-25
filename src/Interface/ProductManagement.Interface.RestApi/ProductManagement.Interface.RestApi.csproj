@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Framework\Anshan.Framework.Application\Anshan.Framework.Application.csproj" />
+    <ProjectReference Include="..\..\..\Framework\Anshan.Framework.Core\Anshan.Framework.Core.csproj" />
+    <ProjectReference Include="..\..\..\Framework\Anshan.Framework.EF\Anshan.Framework.EF.csproj" />
+    <ProjectReference Include="..\..\Application\ProductManagement.Application.Contract\ProductManagement.Application.Contract.csproj" />
+    <ProjectReference Include="..\ProductManagement.Interface.Facade.Contracts\ProductManagement.Interface.Facade.Contracts.csproj" />
+  </ItemGroup>
+
+
+</Project>

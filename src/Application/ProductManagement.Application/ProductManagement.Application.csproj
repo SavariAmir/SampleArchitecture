@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Framework\Anshan.Framework.Application\Anshan.Framework.Application.csproj" />
+    <ProjectReference Include="..\..\Domain\ProductManagement.Domain\ProductManagement.Domain.csproj" />
+    <ProjectReference Include="..\ProductManagement.Application.Contract\ProductManagement.Application.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
