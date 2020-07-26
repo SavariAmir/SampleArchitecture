@@ -9,7 +9,7 @@ namespace ProductManagement.Domain.Tests.Unit.Builders
 
         public ProductBuilder()
         {
-            ProductOptions.ProductTitle = "دراور";
+            ProductOptions.ProductTitle = "Chinn 6 Drawer Double Dresser";
             ProductOptions.ProductEnglishTitle = "Chinn 6 Drawer Double Dresser";
             ProductOptions.AtAGlance = "Solid Wood";
             ProductOptions.Description =
